@@ -34,9 +34,7 @@ void ajouter() {
         printf("entrer la date d' echeance sous forme 02/02/2002 :");
         scanf("%d/%d/%d", &tache[taille].date.jour,
                           &tache[taille].date.mois,
-                          &tache[taille].date.annee);
-        // Copier la tâche ajoutee dans la tache Afficher
-        tache[taille] = tache[taille]; 
+                          &tache[taille].date.annee); 
         taille++;
     } else {
         printf("La liste des taches est pleine.\n");
